@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 class="logo">Jez Salad</h1>
+        <h3 class = "logo bold dark-gray"> <span class = "orange black">JEZ</span> SALAD </h3>
         <nav>
             <ul class="navigation">
-                <li><a href="#" class="header-link">Home</a></li>
-                <li><a href="#" class="header-link">Menu</a></li>
-                <li><a href="#" class="header-link">Contact</a></li>
-                <li><a href="#" class="header-link">About</a></li>
+                <li><a href="#" class="header-link orange bold">Home</a></li>
+                <li><a href="#" class="header-link gray">Menu</a></li>
+                <li><a href="#" class="header-link gray">Contact</a></li>
+                <li><a href="#" class="header-link gray">About</a></li>
             </ul>
         </nav>
         <button class="sign-button">Sign</button>
@@ -21,8 +22,10 @@
 
     <section class="hero">
         <div class="container">
-            <h2 class="text">Skip The Diet, Just Eat Healthy With Jez Salad</h2>
-            <p class="text">Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
+            <h1 class="text-content bold gray">
+                <span class = "orange">Skip</span> The Diet, Just Eat Healthy With Jez Salad
+            </h1>
+            <p class="text light-gray">Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
             <button class="order-button">Order Food</button>
             <div class="stats">
                 <div class="stat">
@@ -40,79 +43,82 @@
             </div>
         </div>
         <div class="customer">
-            <img src="./icons/Customer.svg" alt="customer-photo" class="img">
+            <img src="./icons/HappyConsumer.png" alt="customer-photo" class="img">
             <div class="under-photo">
                 <div class="review">
-                    <span class="text">&#128522;</span>
-                    <h4 class="text">Our Happy Customer</h3>
+                    <img src="./icons/Smile.svg" alt="smile-img" class="img" id="smile">
+                    <h4 class="text semibold gray">Our Happy Customer</h3>
 
                     <span class="text">&#11088;</span>
                     <h3 class="text">4.9</h3>
                     <p class="text">(1,989 Reviews)</p>
-                </div>
-                <div class="calories">
-                    <h3 class="text">123</h3>
-                    <p class="text">Calories</p>
-                    <img src="./icons/Calories.svg" alt="calories-photo" class="img">
                 </div>
             </div>
         </div>
     </section>
 
     <section class="why-choose-us">
-        <div class="container">
-            <h3 class="text">Why Choose Us For Your Healthy Food</h3>
-            <p class="text">We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.</p>
-            <div class="grid">
-                <div>
-                    <img src="./icons/Icon1.svg" alt="icon" class="img">
-                    <h4 class="text">Own fruit orchard</h4>
-                    <p class="text">Langsung dari Kebun Sendiri yang tersebar di setiap provinsi yang memiliki cabang toko Jez Salad.</p>
-                    <button class="learn-more">Learn More</button>
-                </div>
-                <div>
-                    <img src="./icons/Icon2.svg" alt="icon" class="img">
-                    <h4 class="text">#1 Healthy Fruit Salad</h4>
-                    <p class="text">The pioneer of healthy fruit salads that are delicious & suitable for all people with the best quality assurance.</p>
-                    <button class="learn-more">Learn More</button>
-                </div>
-                <div>
-                    <img src="./icons/Icon3.svg" alt="icon" class="img">
-                    <h4 class="text">100 Top Brand</h4>
-                    <p class="text">We are one of the best brands in the Food and Beverage sector in Indonesia.</p>
-                    <button class="learn-more">Learn More</button>
-                </div>
+        <div class="why-choose-us-header">
+            <h2 class="text semibold dark-gray">WHY CHOOSE US <br> FOR <span class = 'orange'> YOUR HEALTHY FOOD</span></h2>
+            <p class="text light-gray">We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.</p>
+        </div>
+        <div class="grid">
+            <div>
+                <img src="./icons/FarmIcon.svg" alt="icon" class="img">
+                <h4 class="text">Own fruit orchard</h4>
+                <p class="text">Langsung dari Kebun Sendiri yang tersebar di setiap provinsi yang memiliki cabang toko Jez Salad.</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div>
+                <img src="./icons/NumberIcon.svg" alt="icon" class="img">
+                <h4 class="text">#1 Healthy Fruit Salad</h4>
+                <p class="text">The pioneer of healthy fruit salads that are delicious & suitable for all people with the best quality assurance.</p>
+                <button class="learn-more">Learn More</button>
+            </div>
+            <div>
+                <img src="./icons/PrizeIcon.svg" alt="icon" class="img">
+                <h4 class="text">100 Top Brand</h4>
+                <p class="text">We are one of the best brands in the Food and Beverage sector in Indonesia.</p>
+                <button class="learn-more">Learn More</button>
             </div>
         </div>
     </section>
 
     <section class="testimonials">
         <div class="container">
-            <h3 class="text">What People Are Saying About Us</h3>
-            <h5 class="text">We are very happy if you are satisfied with our service and products, let's read pure reviews from customers who bought our products.</h5>
-            <div class="scroll">
-                <div class="counter">
-                    <p class="text">02/05</p>
-                    <button class="prev">&#10094;</button>
-                    <button class="next">&#10095;</button>
+            <div class = "testimonials-intro">
+                <h2 class = "text semibold black-text">What Are People Saying <span class="orange">About Us</span></h2>
+                <p class = "text light-gray regular">
+                    We are very happy if you are satisfied with our service and products, let's read pure reviews from customers who bought our products.
+                </p>
+
+                <div class = "testimonials-page-counter">
+                    <span class = "text semibold black-text">02</span>
+                    <span class = "text light-gray regular">/05</span>
                 </div>
+
+                <div class = "testimonials-btn-container">
+                    <button class = "text"><img src = "./icons/ArrowBack.svg" alt = "Back Arrow" class="text"></button>
+                    <button class = "text"><img src = "./icons/Arrow.svg" alt = "Forward Arrow" class="text"></button>
+                </div>
+
             </div>
 
-            <div class="grid">
-                <div class="box">
-                    <img src="./icons/Person1.svg" alt="photo" class="img">
+            <div class="grid-testimonials">
+                <div class="box-testimonials">
+                    <img src="./icons/FirstCustomer.png" alt="photo" class="img-t">
                     <p class="text">Selena Gomz</p>
                     <p class="text">"22 Years </p>
                     <p class="text">"The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality."</p>
                 </div>
-                <div class="box">
-                    <img src="./icons/Person2.svg" alt="photo" class="img">
+                <div class="box-testimonials">
+                    <img src="./icons/ThirdCustomer.png" alt="photo" class="img-t">
                     <p class="text">"David Ken</p>
                     <p class="text">"24 Years </p>
                     <p class="text">"The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality."</p>
                 </div>
-                <div class="box">
-                    <img src="./icons/Person3.svg" alt="photo" class="img">
+                <div class="box-testimonials">
+                    <img src="./icons/SecondCustomer.png" alt="photo" class="img-t">
                     <p class="text">"Jennifer Sina</p>
                     <p class="text">"21 Years </p>
                     <p class="text">"The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality."</p>
@@ -122,82 +128,85 @@
     </section>
 
     <section class="featured-menu">
-        <div class="container">
-            <h5 class="text">MENU YANG MEMBUATMU JATUH CINTA</h5>
-            <p class="text">Enjoy The Best Menu And Get Discounts Available</p>
-            <div class="grid">
-                <div class="box">
-                    <img src="./icons/Salad1.svg" alt="photo" class="img">
-                    <h4 class="text">Mini Salad Yummy</h4>
-                    <p class="text">$2.99</p>
+        <div class="featured-menu-header">
+            <h5 class="text medium orange">MENU YANG MEMBUATMU JATUH CINTA</h5>
+            <p class="text semibold gray">Enjoy The Best Menu And Get Discounts Available</p>
+        </div>
+        <div class="grid">
+            <div class="box">
+                <div class="box-text">
+                    <span class="text white">Mini Salad Yummy</span>
+                    <p class="text white bold">$2.99</p>
                 </div>
-                <div class="box">
-                    <img src="./icons/Salad2.svg" alt="photo" class="img">
-                    <h4 class="text">Completed Salad</h4>
-                    <p class="text">$3.99</p>
+                <img src="./icons/FirstDish.png" alt="photo" class="img-menu">
+            </div>
+            <div class="box">
+                <div class="box-text">
+                    <span class="text white">Completed Salad</span>
+                    <p class="text white bold">$3.99</p>
                 </div>
-                <div class="box">
-                    <img src="./icons/Salad3.svg" alt="photo" class="img">
-                    <h4 class="text">Salad Yummy Red</h4>
-                    <p class="text">$3.99</p>
+                <img src="./icons/SecondDish.png" alt="photo" class="img-menu">
+            </div>
+            <div class="box">
+                <div class="box-text">
+                    <span class="text white">Salad Yummy Red</span>
+                    <p class="text white bold">$3.99</p>
                 </div>
+                <img src="./icons/ThirdDish.png" alt="photo" class="img-menu">
             </div>
         </div>
     </section>
 
     <section class="subscription">
-        <div class="container">
-            <p class="text">Our Subscribe</p>
-            <h3 class="text">Subscribe To Get The Latest Promo From Jez Salad</h3>
-            <p class="text">We recommended you to subscribe to our promo program, drop your email below to get daily update about us</p>
-            <form class="box-2">
-                <input type="email" placeholder="Enter your email adress" class="subscribe-input">
-                <button class="subscribe-button">Subscribe</button>
-            </form>
-        </div>
+        <h4 class="text medium orange">Our Subscribe</h4>
+        <h2 class="text semibold gray">Subscribe To Get The Latest Promo From Jez Salad</h2>
+        <p class="text gray">We recommended you to subscribe to our promo program, drop your email below to get daily update about us</p>
+        <form class="box-2">
+            <input type="email" placeholder="Enter your email adress" class="subscribe-input">
+            <button class="subscribe-button orange-background">Subscribe</button>
+        </form>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-logo">
-                <h1 class="text">Jez Salad</h1>
-                <p class="text">Jez Salad is the pioneer of healthy fruit salad with high nutrition.</p>
-                <p class="text">©Copyright Jez Salad</p>
-            </div>
-            <div class="feature-section">
-                <h4 class="text">Feature</h4>
-                <ul class="footer-links">
-                    <li><a href="#" class="footer-link">Menu</a></li>
-                    <li><a href="#" class="footer-link">Promo</a></li>
-                    <li><a href="#" class="footer-link">Contact</a></li>
-                    <li><a href="#" class="footer-link">About us</a></li>
-                </ul>
-            </div>
-            <div class="contact-section">
-                <h4 class="text">Get in Touch</h4>
-                <ul class="footer-info">
-                    <div class="contact">
-                        <img src="./icons/Location.svg" alt="location-icon" class="img">
-                        <p class="footer-text">8819 Ohio St. South Gate, CA 90280</p>
-                    </div>
-                    <div class="contact">
-                        <img src="./icons/Email.svg" alt="email-icon" class="img">
-                        <p class="footer-text">Ourstudio@hello.com</p>
-                    </div>
-                    <div class="contact">
-                        <img src="./icons/Phone.svg" alt="phone-icon" class="img">
-                        <p class="footer-text">+1 234 567 890</p>
-                    </div>
-                </ul>
-            </div>
-            <div class="social-section">
-                <ul class="footer-links">
-                    <li><img src="./icons/Twitter.svg" alt="twitter-logo" class="img"></li>
-                    <li><img src="./icons/Linedin.svg" alt="linkedin-logo" class="img"></li>
-                    <li><img src="./icons/Instagram.svg" alt="instagram-logo" class="img"></li>
-                </ul>
-                <h4 class="text">Follow our social media.</h4>
-            </div>
+        <div class="footer-logo">
+            <h3 class = "logo bold dark-gray"> <span class = "orange black">JEZ</span> SALAD </h3>
+            <p class="text regular gray">Jez Salad is the pioneer of healthy fruit salad with high nutrition.</p>
+            <span class="text regular black-text">©Copyright Jez Salad</span>
+        </div>
+
+        <div class="feature-section">
+            <h3 class="text semibold orange">Feature</h3>
+            <a href="#" class="footer-link regular light-gray">Menu</a>
+            <a href="#" class="footer-link regular light-gray">Promo</a>
+            <a href="#" class="footer-link regular light-gray">Contact</a>
+            <a href="#" class="footer-link regular light-gray">About us</a>
+        </div>
+
+        <div class="contact-section">
+            <h4 class="text semibold orange">Get in Touch</h4>
+            <ul class="footer-info">
+                <div class="contact">
+                    <img src="./icons/Location.svg" alt="location-icon" class="img">
+                    <p class="footer-text">8819 Ohio St. South Gate, CA 90280</p>
+                </div>
+                <div class="contact">
+                    <img src="./icons/Mail.svg" alt="email-icon" class="img">
+                    <p class="footer-text">Ourstudio@hello.com</p>
+                </div>
+                <div class="contact">
+                    <img src="./icons/Phone.svg" alt="phone-icon" class="img">
+                    <p class="footer-text">+1 234 567 890</p>
+                </div>
+            </ul>
+        </div>
+
+        <div class="social-section">
+            <ul class="social-icons">
+                <img src="./icons/Twitter.svg" alt="twitter-logo" class="img">
+                <img src="./icons/LinkedIn.svg" alt="linkedin-logo" class="img">
+                <img src="./icons/Insta.svg" alt="instagram-logo" class="img">
+            </ul>
+            <span class="text regular light-gray">Follow our social media.</span>
         </div>
     </footer>
 </body>
